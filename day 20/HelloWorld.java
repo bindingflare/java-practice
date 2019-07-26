@@ -74,16 +74,26 @@ public class HelloWorld {
 		// byte short long int char double boolean <-- 원식 (primitive) 자료형)
 		// String <-- 문자열 클래스
 		
-		String str = "Hello world";
-		String str2 = "java";
+//		String str = "Hello world";
+//		String str2 = "java";
+//		
+//		System.out.println(str);
+//		
+//		if(str.equals(str2)) {
+//			System.out.println("Both strings are equal");
+//		} else {
+//			System.out.println("Both strings are not equal");
+//		}
+//	
+//		System.out.println(str.replaceAll("Hello", "Bye"));
+//		System.out.println(str.substring(0, 5)); // 0 부터 4까지 (5보다 작다)
 		
-		System.out.println(str);
-		
-		if(str.equals(str2)) {
-			System.out.println("Both strings are equal");
-		} else {
-			System.out.println("Both strings are not equal");
-		}
+//		String[] weekdays = {"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"};
+//		String[] arr = new String[10];
+//		
+//		System.out.println(weekdays[2]);
 	}
-
+	
+	// https://docs.oracle.com/javase/8/docs/api/java/lang/String.html
+	// https://docs.oracle.com/javase/tutorial/java/data/strings.html
 }
